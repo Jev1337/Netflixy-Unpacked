@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "origin",
+                    "operation": "set",
+                    "value": "https://www.facebook.com"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "facebook.com/plugins/error/confirm/like",
+            "resourceTypes": [
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "sec-fetch-mode",
+                    "operation": "set",
+                    "value": "navigate"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "facebook.com/netflixytn/posts",
+            "resourceTypes": [
+                "xmlhttprequest"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "origin",
+                    "operation": "remove"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "facebook.com/api/graphql",
+            "resourceTypes": [
+                "xmlhttprequest"
+            ]
+        }
+    }
+]
