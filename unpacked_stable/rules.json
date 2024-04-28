@@ -33,7 +33,7 @@
             ]
         },
         "condition": {
-            "urlFilter": "facebook.com/61558783160244/posts",
+            "urlFilter": "facebook.com/netflixytn/posts",
             "resourceTypes": [
                 "xmlhttprequest"
             ]

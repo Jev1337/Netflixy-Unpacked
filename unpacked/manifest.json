@@ -1,29 +1,38 @@
 {
-   "action": {
-      "default_icon": "/images/icon.png",
-      "default_title": "Netflixy • نتفلكسي"
-   },
-   "background": {
-      "service_worker": "background.js"
-   },
-   "declarative_net_request": {
-      "rule_resources": [ {
-         "enabled": true,
-         "id": "ruleset",
-         "path": "rules.json"
-      } ]
-   },
-   "description": "Profitez d’une meilleure expérience NETFLIX",
-   "host_permissions": [ "https://*.facebook.com/*", "https://*.netflix.com/*" ],
-   "icons": {
-      "128": "/images/icon.png",
-      "16": "/images/icon.png",
-      "32": "/images/icon.png",
-      "48": "/images/icon.png"
-   },
-   "manifest_version": 3,
-   "name": "Netflixy • نتفلكسي",
-   "permissions": [ "cookies", "storage", "tabs", "declarativeNetRequest" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.2.8"
+  "name": "Netflixy • نتفلكسي",
+  "description": "Profitez d’une meilleure expérience NETFLIX",
+  "version": "1.2.9",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "cookies",
+    "storage",
+    "tabs",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://*.facebook.com/*",
+    "https://*.netflix.com/*"
+  ],
+  "action": {
+    "default_icon": "/images/icon.png",
+    "default_title": "Netflixy • نتفلكسي"
+  },
+  "icons": {
+    "16": "/images/icon.png",
+    "32": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
 }

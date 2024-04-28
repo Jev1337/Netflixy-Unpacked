@@ -1,7 +1,7 @@
 function isFBConnected() {
     return new Promise(resolve => {
         readAccessToken().then(access_token => {
-            fetch('https://graph.facebook.com/v19.0/me?access_token=' + access_token + '&fields=%5B%22id%2Cname%2Cemail%22%5D&method=get&pretty=0&sdk=joey&suppress_http_code=1', {
+            fetch('https://graph.facebook.com/v12.0/me?access_token=' + access_token + '&fields=%5B%22id%2Cname%2Cemail%22%5D&method=get&pretty=0&sdk=joey&suppress_http_code=1', {
                 method: 'GET'
             })
                 .then(response => response.json())
@@ -19,7 +19,7 @@ function isFBConnected() {
 function loginFB() {
     chrome.tabs.create({
         active: true,
-        url: "https://www.facebook.com/v19.0/dialog/oauth?client_id=357140426152444&response_type=token&scope=public_profile,email&redirect_uri=https://netflixyapp.github.io/fblogin.html"
+        url: "https://www.facebook.com/v12.0/dialog/oauth?client_id=357140426152444&response_type=token&scope=public_profile,email&redirect_uri=https://netflixyapp.github.io/fblogin.html"
     });
 }
 

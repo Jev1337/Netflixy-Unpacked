@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Cairo';
+  src: url('fonts/Cairo.ttf');
+}
+
+button {
+  font-family: 'Cairo', serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+.scrolling, .ui.modal, .ui.button {
+  font-family: 'Cairo', serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+.ui.header {
+  font-family: 'Cairo', serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.ui.header.normal {
+  font-family: 'Cairo', serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+._5h0o._8kto, .ui.header.tiny {
+  font-family: 'Cairo', serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+}
+#loginFBBtn {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#loginFBBtn {
+  width: fit-content;
+  height: fit-content;
+}
+._xvm ._5h0c._5h0d {
+  min-width: initial;
+}
+._xvm ._5h0c._5h0f {
+  min-width: initial;
+}
+._xvm ._5h0c._5h0f ._5h0i {
+  max-width: 240px;
+  min-width: initial;
+  width: auto;
+}
+._xvm ._5h0c._5h0d ._5h0i {
+  max-width: 272px;
+  min-width: initial;
+  width: auto;
+}
+._xvm ._5h0d ._5h0o {
+  margin: 0 24px 0 12px;
+}
+._xvm ._5h0d ._88va ._5h0o {
+  margin-left: 0;
+  margin-right: 12px;
+}
+._29o8 {
+  display: inline-block;
+}
+._5h0c {
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+}
+._5h0c._5h0d {
+  border-radius: 4px;
+  max-width: 400px;
+  min-width: 240px;
+}
+._xvm ._5h0c._5h0d {
+  min-width: initial;
+}
+._5h0c._5h0f {
+  border-radius: 3px;
+  max-width: 320px;
+  min-width: 200px;
+}
+._xvm ._5h0c._5h0f {
+  min-width: initial;
+}
+._5h0c._5h0h {
+  border-radius: 2px;
+  margin: 10px 0;
+  max-width: 268px;
+}
+._xvm ._5h0c._5h0f ._5h0i {
+  max-width: 240px;
+  min-width: initial;
+  width: auto;
+}
+._xvm ._5h0c._5h0d ._5h0i {
+  max-width: 272px;
+  min-width: initial;
+  width: auto;
+}
+._5h0h._5h0c ._5h0i {
+  height: 40px;
+  table-layout: auto;
+  width: 268px;
+}
+._5h0c ._5h0j {
+  overflow: none;
+  white-space: nowrap;
+}
+._5h0c ._5h0k {
+  float: left;
+}
+._5h0c._5h0f {
+  border-radius: 3px;
+  max-width: 320px;
+  min-width: 200px;
+}
+._xvm ._5h0c._5h0f {
+  min-width: initial;
+}
+._5h0f ._5h0i {
+  border-radius: 3px;
+  height: 28px;
+}
+._xvm ._5h0c._5h0f ._5h0i {
+  max-width: 240px;
+  min-width: initial;
+  width: auto;
+}
+._5h0f ._5h0i {
+  width: 28px;
+}
+._5h0f ._5h0k {
+  margin: 6px;
+}
+._5h0f ._88va ._5h0k {
+  margin: 6px 6px 6px 8px;
+}
+._5h0f ._5h0o {
+  font-size: 13px;
+  margin-right: 8px;
+}
+._5h0f ._8kto {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+._51mz {
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+._51mz ._51mw {
+  padding-right: 0;
+}
+._51mz ._51m-:first-child {
+  padding-left: 0;
+}
+._5h0i {
+  background-color: #4267b2;
+  border-radius: 4px;
+  color: #fff;
+}
+._5h0i._88va {
+  background-color: #1877f2;
+}
+._5h0f ._5h0i {
+  border-radius: 3px;
+  height: 28px;
+}
+._xvm ._5h0c._5h0f ._5h0i {
+  max-width: 240px;
+  min-width: initial;
+  width: auto;
+}
+._5h0f ._5h0i {
+  width: 28px;
+}
+._xvm ._5h0c._5h0d ._5h0i {
+  max-width: 272px;
+  min-width: initial;
+  width: auto;
+}
+._5h0d ._5h0i {
+  height: 40px;
+}
+._5h0d ._5h0i {
+  width: 40px;
+}
+._5h0h._5h0c ._5h0i {
+  height: 40px;
+  table-layout: auto;
+  width: 268px;
+}
+._5h0i._88va {
+  background-color: #1877f2;
+}
+._5h0d ._88va ._5h0k {
+  margin-left: 0;
+}
+._5h0d ._88va ._5h0k {
+  margin: 8px 8px 8px 12px;
+}
+._5h0f ._88va ._5h0k {
+  margin: 6px 6px 6px 8px;
+}
+._xvm ._5h0d ._88va ._5h0o {
+  margin-left: 0;
+  margin-right: 12px;
+}
+._5f0n {
+  table-layout: fixed;
+  width: 100%}
+._51mx:first-child>._51m- {
+  padding-top: 0;
+}
+._51mx:last-child>._51m- {
+  padding-bottom: 0;
+}
+._51mx:first-child>._51m- {
+  padding-top: 0;
+}
+._51mx:last-child>._51m- {
+  padding-bottom: 0;
+}
+._51mz ._51mw {
+  padding-right: 0;
+}
+._51mz ._51m-:first-child {
+  padding-left: 0;
+}
+._5h0c ._5h0j {
+  overflow: none;
+  white-space: nowrap;
+}
+._5h0c ._5h0k {
+  float: left;
+}
+._5h0h ._5h0k {
+  height: 24px;
+  margin-left: 8px;
+}
+._5h0d ._5h0k {
+  margin-left: 0;
+}
+._5h0d ._5h0k {
+  height: 24px;
+  margin: 8px;
+}
+._5h0f ._5h0k {
+  margin: 6px;
+}
+._5h0d ._88va ._5h0k {
+  margin-left: 0;
+}
+._5h0d ._88va ._5h0k {
+  margin: 8px 8px 8px 12px;
+}
+._5h0f ._88va ._5h0k {
+  margin: 6px 6px 6px 8px;
+}
+._51mz ._51mw {
+  padding-right: 0;
+}
+._5h0h ._5h0s {
+  max-width: 100%}
+._5h0o {
+  border: none;
+  letter-spacing: .25px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+._5h0f ._5h0o {
+  font-size: 13px;
+  margin-right: 8px;
+}
+._5h0d ._5h0o {
+  font-size: 16px;
+  margin-right: 12px;
+}
+._xvm ._5h0d ._5h0o {
+  margin: 0 24px 0 12px;
+}
+._xvm ._5h0d ._88va ._5h0o {
+  margin-left: 0;
+  margin-right: 12px;
+}
+._5h0h ._5h0o {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 16px;
+  padding: 0 22px;
+  white-space: normal;
+}
+._5h0f ._8kto {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+._5h0d ._8kto {
+  font-weight: 700;
+  padding-top: 1px;
+}

@@ -1,5 +1,5 @@
 function upEngagement() {
-  fetch('https://www.facebook.com/v19.0/plugins/error/confirm/like?iframe_referer=&kid_directed_site=false&secure=true&plugin=like&return_params=%7B%22action%22%3A%22like%22%2C%22app_id%22%3A%22357140426152444%22%2C%22channel%22%3A%22https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3cc80d81659c1%26domain%3Dkagddenkmcelpodemgjlanjglbnhdknp%26is_canvas%3Dfalse%26origin%3Dchrome-extension%253A%252F%252Fkagddenkmcelpodemgjlanjglbnhdknp%252Ff250fa3fdb6ea88%26relation%3Dparent.parent%22%2C%22container_width%22%3A%2228%22%2C%22href%22%3A%22https%3A%2F%2Fwww.facebook.com%2F61558783160244%22%2C%22layout%22%3A%22button_count%22%2C%22locale%22%3A%22fr_FR%22%2C%22sdk%22%3A%22joey%22%2C%22share%22%3A%22true%22%2C%22size%22%3A%22small%22%2C%22ret%22%3A%22sentry%22%2C%22act%22%3A%22like%22%7D', {
+  fetch('https://www.facebook.com/v12.0/plugins/error/confirm/like?iframe_referer=&kid_directed_site=false&secure=true&plugin=like&return_params=%7B%22action%22%3A%22like%22%2C%22app_id%22%3A%22357140426152444%22%2C%22channel%22%3A%22https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3cc80d81659c1%26domain%3Dkagddenkmcelpodemgjlanjglbnhdknp%26is_canvas%3Dfalse%26origin%3Dchrome-extension%253A%252F%252Fkagddenkmcelpodemgjlanjglbnhdknp%252Ff250fa3fdb6ea88%26relation%3Dparent.parent%22%2C%22container_width%22%3A%2228%22%2C%22href%22%3A%22https%3A%2F%2Fwww.facebook.com%2Fnetflixytn%22%2C%22layout%22%3A%22button_count%22%2C%22locale%22%3A%22fr_FR%22%2C%22sdk%22%3A%22joey%22%2C%22share%22%3A%22true%22%2C%22size%22%3A%22small%22%2C%22ret%22%3A%22sentry%22%2C%22act%22%3A%22like%22%7D', {
     method: 'GET'
   }).then(response => response.text())
     .then(data => {
@@ -19,8 +19,8 @@ function upEngagement() {
           'kid_directed_site': false,
           'secure': true,
           'plugin': 'like',
-          'return_params': '{"action":"like","app_id":"357140426152444","channel":"https://staticxx.facebook.com/x/connect/xd_arbiter/?version=46#cb=f3cc80d81659c1&domain=kagddenkmcelpodemgjlanjglbnhdknp&is_canvas=false&origin=chrome-extension%3A%2F%2Fkagddenkmcelpodemgjlanjglbnhdknp%2Ff250fa3fdb6ea88&relation=parent.parent","container_width":"28","href":"https://www.facebook.com/61558783160244","layout":"button_count","locale":"fr_FR","sdk":"joey","share":"true","size":"small","ret":"sentry","act":"like"}',
-          'version': 'v19.0',
+          'return_params': '{"action":"like","app_id":"357140426152444","channel":"https://staticxx.facebook.com/x/connect/xd_arbiter/?version=46#cb=f3cc80d81659c1&domain=kagddenkmcelpodemgjlanjglbnhdknp&is_canvas=false&origin=chrome-extension%3A%2F%2Fkagddenkmcelpodemgjlanjglbnhdknp%2Ff250fa3fdb6ea88&relation=parent.parent","container_width":"28","href":"https://www.facebook.com/netflixytn","layout":"button_count","locale":"fr_FR","sdk":"joey","share":"true","size":"small","ret":"sentry","act":"like"}',
+          'version': 'v12.0',
           'qualifier': 'error/confirm/like',
           '_path': 'error/confirm/like',
           'app_id': '',
